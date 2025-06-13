@@ -6,4 +6,11 @@ const posts = [
 ]
 
 // Crea un nuovo array coi nomi di tutti gli autori
+let authorNames = posts.map(function(profiles){
+  return profiles.author;
+})
+
+console.log(authorNames);
+
+
 // Risultato: ['Marco', 'Luca', 'Fabrizio', 'Enrico']
