@@ -7,6 +7,4 @@ let incremented = numbers.map(function(numeri){
 
 console.log(incremented);
 
-// console.log(incremented);
-
 // Risultato: [3, 9, 5, 8, 3, 88]
